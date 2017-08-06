@@ -1,10 +1,21 @@
 body {
  color: #5DADE2;
  font-family: 'Kurale', serif;
+ background-image: url('../images/dark_exa.png');
+}
+h1, h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.greetingMessage div {
+  float: left;
+  clear: none;
 }
 .stage {
   width: 200px;
-  height: 200px;
+  height: 150px;
+  margin: 15px;
 }
 
 .face {
@@ -15,9 +26,9 @@ body {
   min-width: 140px;
   max-width: 140px;
 }
-.cubespinner {
-  margin-top: 30px;
-  margin-left: 30px;
+p {
+
+  font-size: 20px;
 }
 @-webkit-keyframes spincube {
     from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
