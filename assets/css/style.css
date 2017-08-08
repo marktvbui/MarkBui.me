@@ -32,6 +32,7 @@ h1, h2 {
   max-height: 140px;
   min-width: 140px;
   max-width: 140px;
+  background-color: black !important;
 }
 
 p {
@@ -47,7 +48,7 @@ p {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #5DADE2;;
+  color: #5DADE2;
   text-align: center;
   text-decoration: none;
 }
@@ -65,6 +66,59 @@ nav a {
 }
 nav a:first-child {
   border-left: 0 none;
+}
+.containerContact {
+  text-align: center;
+  display: table;
+}
+.main-section {
+  background-image: url('../images/dark_exa.png') !important;
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+/* contact page */
+.social {
+  margin-left: 30px;
+}
+#contact-form ul {
+  margin-bottom: 20px;
+}
+#contact-form li {
+  margin-bottom: 10px;
+}
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+textarea {
+  height: 200px;
+}
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #5DADE2;
+  border: 0 none;
+}
+.submitButton {
+  text-align: center;
 }
 footer {
   display: block;
