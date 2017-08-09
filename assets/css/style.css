@@ -7,9 +7,46 @@ body {
   color: #5DADE2;
   font-family: 'Kurale', serif;
 }
+/*start of skills page styling*/
+.skills-container {
+  margin-top: 50px;
+}
+.skillHeader {
+  text-align: center;
+  font-size: 25px;
+  color: #5DADE2;
+}
+.devSkills {
+  padding-left: 5%;
+}
+.otherSkills {
+  padding-right: 5%;
+}
+.skill-title {
+  float: left;
+}
+.skill-score {
+  float: right;
+}
+.otherSkillsDiv {
+  clear: both;
+  font-size: 20px;
+  color: #5DADE2;
+}
+.fa-star {
+  color: #FF00FF;
+}
+.emptyStar {
+  color: #5DADE2;
+}
+/*end of skills page styling*/
 h1, h2 {
   text-align: center;
   padding-bottom: 15px;
+}
+
+.selfPic {
+  max-width: 90%;
 }
 
 .greetingMessage div {
@@ -35,7 +72,7 @@ h1, h2 {
   background-color: black !important;
 }
 
-p {
+.introP {
   font-size: 20px;
   margin-left: 240px;
 }
@@ -120,6 +157,8 @@ input[type=submit] {
 .submitButton {
   text-align: center;
 }
+/*end of contact page styling*/
+/*footer styling*/
 footer {
   display: block;
   text-align: center;
@@ -129,6 +168,7 @@ footer {
   left: 0;
   padding: 1rem;
 }
+/*start of spinning cube styling*/
 @-webkit-keyframes spincube {
     from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
     16%      { -webkit-transform: rotateY(-90deg);                           }
