@@ -198,6 +198,35 @@ footer {
     margin-top: -3em;
 }
 
+#portfolio-area {
+  /* Box-model */
+  padding: 45px 10px 25px 31px;
+
+  /* Positioning */
+  margin-top: 30px;
+  margin-bottom: 200px;
+
+}
+
+.port-hr {
+  margin-bottom: 40px;
+}
+
+.port-imgs {
+  /* Box-model */
+  width: 233px;
+  height: 166px;
+  margin-right: 15px;
+
+  /* Positioning */
+  margin-bottom: 15px;
+}
+
+.port-div {
+  float: left;
+  text-align: center;
+  padding: 15px;
+}
 /*start of spinning cube styling*/
 @-webkit-keyframes spincube {
     from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
