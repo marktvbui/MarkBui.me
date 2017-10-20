@@ -198,13 +198,14 @@ footer {
     margin-top: -3em;
 }
 
+/* start of portfolio styling */
 #portfolio-area {
   /* Box-model */
   padding: 45px 10px 25px 31px;
 
   /* Positioning */
   margin-top: 30px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 
 }
 
@@ -227,6 +228,9 @@ footer {
   text-align: center;
   padding: 15px;
 }
+.port-header {
+}
+/* end of portfolio styling */
 /*start of spinning cube styling*/
 @-webkit-keyframes spincube {
     from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
