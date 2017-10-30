@@ -195,6 +195,9 @@ footer {
 */
 }
 
+footer.footerIndex {
+  position: fixed;
+}
 /* start of portfolio styling */
 .portfolio-area {
   /* Box-model */
