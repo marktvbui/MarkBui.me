@@ -183,7 +183,6 @@ footer .skills-container:after {
   height: 5%;
 }
 footer {
-  display: fixed;
   text-align: center;
   position: fixed;
   right: 0;
