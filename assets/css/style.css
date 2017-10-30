@@ -184,21 +184,19 @@ footer .skills-container:after {
 }
 footer {
   text-align: center;
-  position: fixed;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
     clear: both;
 /*    text-align: center;
-    position: relative;*/
 /*    z-index: 10;
-*/    height: 3em;
-    margin-top: -3em;
+*/
 }
 
 /* start of portfolio styling */
-#portfolio-area {
+.portfolio-area {
   /* Box-model */
   padding: 45px 10px 25px 31px;
 
