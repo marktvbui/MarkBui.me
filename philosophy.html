@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Mark Bui" content="Developer with sales and leadership background">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mark Bui - Developer</title>
+    <link rel="author" href="Mark Bui">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128942957-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-128942957-1');
+    </script>
+
+    <link rel="shortcut icon" href="./assets/images/code.png" type="image/x-icon">
+    <!-- adding jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- adding bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- adding animate.min for flashing nameIntro -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <!-- adding Morphext, allowing for nameIntro to do its thing -->
+    <link rel="stylesheet" href="Morphext-2.4.4/dist/morphext.css">
+    <!-- adding google font -->
+    <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+    <!-- my own styling -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Mark Bui</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="philosophy.html">Philosophy</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="skills.html">Skill Set</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Life lessons I try to live by:</h2>
+    </div>
+    <div class="container">
+        <ul id="lifeLesson"></ul>
+
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        var lessons = [
+            "Find a reason to be optimistic",
+            "Be grateful for everything",
+            "Live beneath your means",
+            "Return everything you borrow",
+            "Stop blaming other people",
+            "Admit it when you make a mistake",
+            "Do something nice and try not to get caught",
+            "Listen more; talk less",
+            "Take a 30 min walk daily",
+            "Strive for excellence, not perfection",
+            "Be on time. Dont make excuses",
+            "Dont argue, get organized",
+            "Be kind to unkind people",
+            "Take time to be alone",
+            "Cultivate good manners",
+            "Be humble",
+            "Realize and accept that life isn’t fair",
+            "Know when to keep your mouth shut",
+            "Go an entire day without criticizing anyone",
+            "Learn something new everyday",
+            "Learn from the past, plan for the future",
+            "Live in the present",
+            "Dont sweat the small stuff",
+            "Its all small stuff"
+        ];
+
+        for (var i = 0; i < lessons.length; i++) {
+            var lesson = lessons[i];
+            var ul = document.getElementById('lifeLesson');
+            var li = document.createElement('li');
+            li.appendChild(document.createTextNode(lesson));
+            ul.appendChild(li);
+        }
+    </script>
+</body>
+<footer class="footerIndex">
+    <div class="container container-footer">
+        Copyright &copy; 2016 Mark Bui
+    </div>
+</footer>
+
+</html>

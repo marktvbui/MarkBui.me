@@ -1,42 +1,49 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mark Bui - Developer</title>
-    <link rel="author" href="Mark Bui">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128942957-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-128942957-1');
-</script>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mark Bui - Developer</title>
+  <link rel="author" href="Mark Bui">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128942957-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    <link rel="shortcut icon" href="./assets/images/code.png" type="image/x-icon">
-    <!-- adding jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <!-- adding bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- adding animate.min for flashing nameIntro -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-    <!-- adding Morphext, allowing for nameIntro to do its thing -->
-    <link rel="stylesheet" href="Morphext-2.4.4/dist/morphext.css">
-    <!-- adding google font -->
-    <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
-    <!-- my own styling -->
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128942957-1');
+  </script>
+
+  <link rel="shortcut icon" href="./assets/images/code.png" type="image/x-icon">
+  <!-- adding jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- adding bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- adding animate.min for flashing nameIntro -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <!-- adding Morphext, allowing for nameIntro to do its thing -->
+  <link rel="stylesheet" href="Morphext-2.4.4/dist/morphext.css">
+  <!-- adding google font -->
+  <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+  <!-- my own styling -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
 
   <header id="masthead">
     <div class="container">
       <a href="index.html" id="logo">Mark Bui</a>
       <nav>
         <a href="index.html">About</a>
+        <a href="philosophy.html">Philosophy</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="skills.html">Skill Set</a>
         <a href="contact.html">Contact</a>
@@ -51,31 +58,49 @@
         <hr class="port-hr" />
         <div class="container port-main-div">
           <div class="port-div">
-            <a href="http://faces-of-berkeley.herokuapp.com/user" target="_blank" alt=""><img class="port-imgs" src="assets/images/faces-of-berkeley.png" alt=""></a><a href="https://github.com/marktvbui/FacesOfBerkeley-1" target="_blank"><br>Faces of Berkeley</a><br>
+            <a href="http://faces-of-berkeley.herokuapp.com/user" target="_blank" alt=""><img class="port-imgs"
+                src="assets/images/faces-of-berkeley.png" alt=""></a><a
+              href="https://github.com/marktvbui/FacesOfBerkeley-1" target="_blank"><br>Faces of Berkeley</a><br>
           </div>
           <div class="port-div">
-            <a href="https://drugs-interactions.herokuapp.com/" target="_blank" alt=""><img class="port-imgs" src="assets/images/druginteractions.png" alt=""></a><a href="https://github.com/marktvbui/DrugsRUs" target="_blank"><br>Drug Interactions</a><br>
+            <a href="https://drugs-interactions.herokuapp.com/" target="_blank" alt=""><img class="port-imgs"
+                src="assets/images/druginteractions.png" alt=""></a><a href="https://github.com/marktvbui/DrugsRUs"
+              target="_blank"><br>Drug Interactions</a><br>
           </div>
           <div class="port-div">
-            <a href="https://project-pets.github.io/project-pets/" target="_blank" alt=""><img class="port-imgs" src="assets/images/hackytails.png" alt=""></a><a href="https://github.com/project-pets/project-pets" target="_blank"><br>Hacky Tails</a><br>
+            <a href="https://project-pets.github.io/project-pets/" target="_blank" alt=""><img class="port-imgs"
+                src="assets/images/hackytails.png" alt=""></a><a href="https://github.com/project-pets/project-pets"
+              target="_blank"><br>Hacky Tails</a><br>
           </div>
           <div class="port-div">
-            <a href="https://emoji-friend-finder.herokuapp.com/" target="_blank" alt=""><img class="port-imgs" src="assets/images/emojifinder.png" alt=""></a><a href="https://github.com/marktvbui/friendFinder" target="_blank"><br>Emoji Friend Finder</a><br>
+            <a href="https://emoji-friend-finder.herokuapp.com/" target="_blank" alt=""><img class="port-imgs"
+                src="assets/images/emojifinder.png" alt=""></a><a href="https://github.com/marktvbui/friendFinder"
+              target="_blank"><br>Emoji Friend Finder</a><br>
           </div>
           <div class="port-div">
-            <a href="https://marktvbui.github.io/hangman/" target="_blank"><img class="port-imgs" src="assets/images/hangman.png" alt=""></a><a href="https://github.com/marktvbui/hangman" target="_blank"><br>Hangman Game</a><br>
+            <a href="https://marktvbui.github.io/hangman/" target="_blank"><img class="port-imgs"
+                src="assets/images/hangman.png" alt=""></a><a href="https://github.com/marktvbui/hangman"
+              target="_blank"><br>Hangman Game</a><br>
           </div>
           <div class="port-div">
-            <a href="https://marktvbui.github.io/Crystal-Collector-Game/" target="_blank"><img class="port-imgs" src="assets/images/crystal.png" alt=""></a><a href="https://github.com/marktvbui/Crystal-Collector-Game" target="_blank"><br>Crystal Collector Game</a><br>
+            <a href="https://marktvbui.github.io/Crystal-Collector-Game/" target="_blank"><img class="port-imgs"
+                src="assets/images/crystal.png" alt=""></a><a href="https://github.com/marktvbui/Crystal-Collector-Game"
+              target="_blank"><br>Crystal Collector Game</a><br>
           </div>
           <div class="port-div">
-            <a href="https://marktvbui.github.io/GifTastic/" target="_blank"><img class="port-imgs" src="assets/images/giftastic.png" alt=""></a><a href="https://github.com/marktvbui/GifTastic" target="_blank"><br>GifTastic</a><br>
+            <a href="https://marktvbui.github.io/GifTastic/" target="_blank"><img class="port-imgs"
+                src="assets/images/giftastic.png" alt=""></a><a href="https://github.com/marktvbui/GifTastic"
+              target="_blank"><br>GifTastic</a><br>
           </div>
           <div class="port-div">
-            <a href="https://marktvbui.github.io/TrainSchedule/" target="_blank"><img class="port-imgs" src="assets/images/train.png" alt=""></a><a href="https://github.com/marktvbui/TrainSchedule" target="_blank"><br>Train Schedule</a><br>
+            <a href="https://marktvbui.github.io/TrainSchedule/" target="_blank"><img class="port-imgs"
+                src="assets/images/train.png" alt=""></a><a href="https://github.com/marktvbui/TrainSchedule"
+              target="_blank"><br>Train Schedule</a><br>
           </div>
           <div class="port-div">
-            <a href="https://marktvbui.github.io/TriviaGame/" target="_blank"><img class="port-imgs" src="assets/images/trivia.png" alt=""></a><a href="https://github.com/marktvbui/TriviaGame" target="_blank"><br>Trivia Game</a><br>
+            <a href="https://marktvbui.github.io/TriviaGame/" target="_blank"><img class="port-imgs"
+                src="assets/images/trivia.png" alt=""></a><a href="https://github.com/marktvbui/TriviaGame"
+              target="_blank"><br>Trivia Game</a><br>
           </div>
         </div>
       </section>
@@ -84,17 +109,20 @@
         <h2 class="port-header">Non-Published Projects</h2>
         <hr class="port-hr" />
         <div class="port-div">
-          <iframe width="233" height="166" src="https://www.youtube.com/embed/u86WTIhenF8" frameborder="0" allowfullscreen>
+          <iframe width="233" height="166" src="https://www.youtube.com/embed/u86WTIhenF8" frameborder="0"
+            allowfullscreen>
           </iframe><br>
           <a href="https://github.com/marktvbui/MyMagic" target="_blank">My Magic</a><br>
         </div>
         <div class="port-div">
-          <iframe width="233" height="166" src="https://www.youtube.com/embed/Y7IX-ERrPFM" frameborder="0" allowfullscreen>
+          <iframe width="233" height="166" src="https://www.youtube.com/embed/Y7IX-ERrPFM" frameborder="0"
+            allowfullscreen>
           </iframe><br>
           <a href="https://github.com/marktvbui/CatchAMinion" target="_blank">Catch a Minion</a><br>
         </div>
         <div class="port-div">
-          <iframe width="233" height="166" src="https://www.youtube.com/embed/S-juF_FBrDM" frameborder="0" allowfullscreen>
+          <iframe width="233" height="166" src="https://www.youtube.com/embed/S-juF_FBrDM" frameborder="0"
+            allowfullscreen>
           </iframe><br>
           <a href="https://github.com/marktvbui/Alien_Invasion" target="_blank">Alien Invasion</a><br>
         </div><br>
@@ -104,21 +132,23 @@
         <h2 class="port-header">Professional Projects</h2>
         <hr class="port-hr" />
         <div class="port-div">
-          <a href="https://qa-amazi.herokuapp.com/" target="_blank"><img class="port-imgs" src="assets/images/amazi.png" alt=""><br>Amazi Project</a><br>
+          <a href="https://qa-amazi.herokuapp.com/" target="_blank"><img class="port-imgs" src="assets/images/amazi.png"
+              alt=""><br>Amazi Project</a><br>
         </div>
       </section>
     </section>
   </div>
 
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  </body>
+</body>
 
 
-  <footer class="footer">
-    <div class="container container-footer">
-      Copyright &copy; 2016 Mark Bui
-    </div>
-  </footer>
+<footer class="footer">
+  <div class="container container-footer">
+    Copyright &copy; 2016 Mark Bui
+  </div>
+</footer>
+
 </html>
